@@ -1,0 +1,732 @@
+<!doctype html>
+<html>
+<style type="text/css">
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    /*background-color: grey;*/
+}
+.caption {
+    display: block;
+}
+
+#imagitem {
+    width: 125px;
+    height: 125px;
+    /*background: url(img_navsprites.gif) 0 0;*/
+}
+
+#imagprod {
+    width: 470px;
+    height: 470px;
+    /*background: url(img_navsprites.gif) 0 0;*/
+}
+.searchTrip {
+    background: url(../images/bg-call-to-action.png?1311936637) repeat-x;
+    width: 870px;
+    float: left;
+    padding: 20px 0 20px 0;
+    margin-left: 50px;
+    color: #034e86;
+    font-size: 30px;
+    font-weight: bold;
+    -webkit-box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5),0 1px 4px rgba(0,0,0,0.3),0 0 40px rgba(0,0,0,0.1) inset;
+    box-shadow: 0 20px 10px -10px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3), 0 0 40px rgba(0,0,0,0.1) inset;
+}
+.defaultRound {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.searchTrip input {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+.inputbox{
+	width: 300px;
+    color: rgb(170, 170, 170);
+    margin-left: 30px;
+}
+
+.infoBlock.mid {
+    overflow: hidden;
+}
+a.infoBlockLink:hover .infoBlock {
+    opacity: .7;
+}
+a.infoBlockLink .infoBlock {
+    color: #333;
+}
+.infoBlock.mid {
+    width: 600px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width:320px;
+    border:1px solid #bbb;
+    margin:50px;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:80%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width: 75px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:14px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:10px;
+}
+#wrapper {
+    height: 250px;
+    width: 100%;
+    overflow: auto;
+}
+</style>
+<head>
+	<title>Nitip App</title>
+	<meta name="description" content=""/>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8"/>
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400italic,700italic&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700&amp;subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ 	<link href="css/mobilemenu.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/simple-line-icons.css" rel="stylesheet">
+	<link href="css/foundation.min.css" rel="stylesheet">
+	<link href="css/jquery.fancybox.css" rel="stylesheet">
+	<link href="css/style.min.css" rel="stylesheet">
+
+	<!-- Theme color -->
+	<link href="css/less/colors/blue.min.css" rel="stylesheet">
+
+	<!-- <link href="favicon.ico" rel="icon" type="image/x-icon" /> -->
+	<link rel="icon" type="image/png" href="favicon.png" sizes="32x32">
+
+	<script src="js/lib/modernizr.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+</head>
+<body data-currency="IDR">
+	<span class="theme-bg-c"></span>
+	<div class="preloader-block">
+		<div class="preloader-container">
+			<svg id="Layer_1" x="0px" y="0px"
+				 width="150px" height="150px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+			<polygon fill="#FFFFFF" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441
+				545.441,557.559 "/>
+			<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+			</svg>
+		</div>
+	</div>
+	<div class="page-content">
+		<header class="header">
+			<div class="menu-wrapper">
+				<div class="row">
+					<div class="column large-2">
+						<div class="logo-wrapper">
+							<img src="images/logo.png" alt="" class="logo-image">
+						</div>
+					</div>
+					<div class="column large-10">
+						<nav class="js-navs-list">
+							<ul class="menu-page">
+							
+								
+								<li class="menu-item">
+									<a href="#news">Items</a>
+								</li>
+								<li class="menu-item">
+									<a href="#search">Search</a>
+								</li>
+								<li class="menu-item">
+									<a href="#contacts">Contacts</a>
+								</li>
+								<li class="menu-item" onclick="location.href='login.php'">
+									<a href="#test">Member</a>
+								</li>
+
+								<li class="menu-item" onclick="location.href='admin/login.php'">
+									<a href="#test" >Admin</a>
+								</li>
+								<!-- <li class="menu-item" onclick="location.href='login.php'">
+									<a href="#test" id="MemberLogin">Member</a>
+								</li> -->
+
+							</ul>
+						</nav>
+					</div>
+					<div class="column large-2">
+						<li class="menu-item" onclick="location.href='login.php'">
+									<a href="#test" id="MemberLogin">Member</a>
+								</li>
+					</div>
+				</div>
+			</div>
+
+			<div class="header-container">
+				<div class="header-wrapper">
+					<div class="header-content">
+						<div class="row">
+							<div class="columns large-12 medium-12 small-12">
+								<div class="page-quote-block">
+									<h2 class="page-quote js-slidedown-reveal">Nitip App</h2>
+									<h4 class="quote-comment js-slidedown-reveal">
+										Get anything you need from anyone you want.
+									</h4>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="video-bg-wrapper">
+				<video preload="auto" loop class="video-bg js-video-bg" poster="images/bg-preview.jpg" muted>
+			        <source src="video/shop.mp4" type="video/mp4">
+			        <source src="video/Croatia-P1-0.webm" type="video/webm">
+			    </video>
+			</div>
+
+			<div class="mobile-menu-wrapper">
+				<div class="toggle-btn-block js-toggle-menu">
+					<div class="toggle-btn"></div>
+				</div>
+				<div class="mobile-nav-list js-mobile-container">
+				</div>
+			</div>
+		</header>
+		<section role="main">
+
+
+			<section class="news-section l-section-padding" id="news">
+				<div class="row">
+					<div class="column large-12">
+						<h2 class="l-section-title subtitle">
+							<span class="title-text">Think about it</span>
+							<span class="section-subtitle">So many people going travel around the world and get million stories. it's a pleasure if we can share each other with giving a gift that can tell how wonderful this world and magnificent our story.
+</span>
+						</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="column large-12">
+						<div class="news-list-block">
+							<div class="row" id="ProductList">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="snews-section l-section-padding" style="background-color: honeydew;" id="search">
+				<div class="row" >
+					<div class="columns large-12 medium-12 small-12"  style="margin-bottom: 50px;padding-bottom: 50px;">
+					<h4 class="l-section-title" style="padding-top: 50px;">
+						<span class="title-text">Cari traveller yang bisa kamu titipi disini</span>
+					</h4>
+						<div class="searchTrip small defaultRound" style="padding-top: 50px;margin-top: 50px;background-color: ghostwhite;border-radius: 10px;width: inherit;">
+						    <div class="inputbox" style="float: inherit;">
+								<input id="origin" name="origin" size="30" type="text" class="ui-autocomplete-input" autocomplete="on" placeholder="E.q. Surabaya, Indonesia">
+						    </div>
+						    <div style="float: inherit; margin-left: 30px;"><i class="material-icons">arrow_forward</i></div>
+						    <div class="inputbox" style="float: inherit;">
+						        <input id="destination" name="destination" size="30" type="text" class="ui-autocomplete-input" autocomplete="on" placeholder="E.q. Jakarta, Indonesia">
+						    </div>
+						    <div class="checkit-btn-block" onclick="gettraveler()"><span class="checkit-btn l-dis-ib button" style="border-radius: 25px; margin-left: 5px;float: inherit;">Cari Traveller</span></div>
+						</div>
+					</div>
+
+					<div id="wrapper" align="center">
+					<div id="TravelerList">
+						<!-- <a href="">
+							<table width="100%" style="margin-bottom: 10px;">
+								<thead>
+									<tr>
+										<td colspan="2">
+											Nama User
+										</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td width="20%" valign="middle">
+											<div class="commenterImage" style="margin-left: 50px;">
+							                  <img src="http://placekitten.com/45/45" />
+							                </div>
+										</td>
+										<td width="80%" valign="middle">
+							                    <h3>Tanggal Kembali</h3><br>
+							                    <span class="date sub-text">Tanggal Kembali</span>
+										</td>
+
+									</tr>
+								</tbody>
+							</table>				
+						</a> -->
+					</div>
+						
+<!-- 
+						<a href="">
+							<table width="100%" style="margin-bottom: 10px;">
+								<thead>
+									<tr>
+										<td colspan="2">
+											Nama User
+										</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td width="20%" valign="middle">
+											<div class="commenterImage" style="margin-left: 50px;">
+							                  <img src="http://placekitten.com/45/45" />
+							                </div>
+										</td>
+										<td width="80%" valign="middle">
+							                    <h3>Tanggal Kembali</h3><br>
+							                    <span class="date sub-text">Tanggal Kembali</span>
+										</td>
+
+									</tr>
+								</tbody>
+							</table>				
+						</a>	
+
+						<a href="">
+							<table width="100%" style="margin-bottom: 10px;">
+								<thead>
+									<tr>
+										<td colspan="2">
+											Nama User
+										</td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td width="20%" valign="middle">
+											<div class="commenterImage" style="margin-left: 50px;">
+							                  <img src="http://placekitten.com/45/45" />
+							                </div>
+										</td>
+										<td width="80%" valign="middle">
+							                    <h3>Tanggal Kembali</h3><br>
+							                    <span class="date sub-text">Tanggal Kembali</span>
+										</td>
+
+									</tr>
+								</tbody>
+							</table>				
+						</a>		 -->
+
+						
+					</div>
+
+					</div>
+				<!-- <span class="js-play-btn video-play-btn">
+					<span class="play-icon-container">
+						<i class="fa fa-play play-icon"></i>
+					</span>
+				</span>
+				<video preload="auto" loop class="video-block js-page-video" poster="http://placehold.it/1280x720">
+			        <source src="video/MOTO-HD.mp4" type="video/mp4">
+			        <source src="video/MOTO-HD.webm" type="video/webm">
+			        <source src="video/MOTO-HD.ogv" type="video/ogg">
+			    </video> -->
+			</section>
+
+		
+
+		</section>
+		<footer>
+			<section class="get-in-touch l-section-padding bg-img" id="contacts">
+				<div class="title-block">
+					<div class="row">
+						<div class="columns large-12">
+							<h2 class="l-section-title">
+								<span class="title-text">
+									contact 
+								</span>
+							</h2>
+						</div>
+					</div>
+				</div>
+
+				<div class="fields-view">
+					<form action="sendmail.php" method="post">
+						<div class="row">
+							<div class="columns large-6 medium-6">
+								<div class="align-center-small">
+									<div class="centered-block">
+
+										<label for="name" class="contact-label">Name</label>
+										<input type="text" id="name" class="contact-field required" name="name_field">
+									</div>
+									<div class="centered-block">
+										<label for="mail" class="contact-label">E-mail</label>
+										<input type="text" id="mail" class="contact-field required" name="mail_field">
+									</div>
+									<div class="centered-block">
+										<label for="subject" class="contact-label">Subject</label>
+										<input type="text" id="subject" class="contact-field required" name="subject_field">
+									</div>
+								</div>
+							</div>
+							<div class="columns large-6 medium-6">
+								<div class="align-center-small">
+									<div class="centered-block">
+										<label for="message" class="contact-label">Message</label>
+										<textarea id="message" class="contact-field textarea-contact required" name="message_field"></textarea>
+
+										<span class="checkout">
+											<span>Send</span>
+											<i class="fa fa-envelope-o"></i>
+										</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+
+					<div class="socials-list">
+						<ul class="social-icons">
+							<li>
+								<a href="#"><i class="fa fa-instagram"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-facebook"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-dribbble"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-tumblr"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<div class="footer-wrapper l-section-padding">
+
+				<div class="row">
+					<div class="columns large-12">
+						<div class="footer-container">
+							<div class="footer-item">
+							<!--	<address>
+									<p class="address-item">
+										<span class="heightlight">e-mail:</span> clothes_shop@triablo.com
+									</p>
+									<p class="address-item">
+										<span class="heightlight">address:</span> New York, Saint Nicholas Avenue 13/1
+									</p>
+									<p class="address-item">
+										<span class="heightlight">fax:</span> +1 0123-4567-8900
+									</p>
+								</address>
+							-->
+							</div>
+
+							<div class="footer-item">
+								<div class="logo-wrapper">
+									<div class="logo-block">
+										<a href="#main-carousel">
+											<img src="images/footer-logo.png" alt="" class="footer-logo"/>
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<div class="footer-item">
+								<div class="copy-right">
+									<p>
+										© Nitip 2014. All Rights Reserved
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<div class="modals">
+		<div class="map-view js-map-container">
+			<span class="button form-view-btn js-form-view">back to site</span>
+			<div id="map-block">
+
+			</div>
+		</div>
+
+		<div class="codal-container">
+
+			<div class="success-block popup-elem">
+				<p class="thank-popup"><span>Thank you!</span><br/> We will contact you soon.</p>
+				<span class="close-popup"></span>
+			</div>
+
+			<div class="error-block popup-elem">
+				<p class="thank-popup"><span>Please, </span><br/>complete the form.</p>
+				<span class="close-popup"></span>
+			</div>
+		</div>
+
+
+		<div class="products-modals">
+			<div class="products-category-list">
+				<div class="category-container">
+					<div class="category-block category-list">
+						<div class="row">
+							<div class="columns large-12 medium-12">
+								<dl class="select">
+									<dt></dt>
+								    <dd>
+								        <div class="options-list">
+								        	<div class="close-btn"></div>
+								        	<div class="options-wrapper">
+								        		<div class="options-container js-category-list">
+
+								        		</div>
+								        	</div>
+								        </div>
+								        <div class="loader">
+								          	<div class="loader-container">
+								          		<svg id="Layer_1" x="0px" y="0px"
+								          			 width="600px" height="690px" viewBox="0 0 600 690" enable-background="new 0 0 600 690" xml:space="preserve">
+								          		<polygon fill="#f1f1f1" class="polygon" stroke="#A7A9AC" stroke-width="8" stroke-miterlimit="10" points="54.558,557.559 300,132.441
+								          			545.441,557.559 "/>
+								          		<polygon fill="#8856A3"  class="inner" points="96.037,535.115 300,168.885 503.963,535.115 "/>
+								          		</svg>
+								          	</div>
+								        </div>
+								    </dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="products-form">
+				<div class="form-container">
+					<div class="main-form-block">
+						<div class="row">
+							<div class="columns large-12">
+								<div class="form-block-header custom-reveal">
+									<div class="form-close-btn"></div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="columns large-7 medium-7">
+								<div class="order-list-block custom-reveal">
+									<div class="order-list-container js-order-container">
+									</div>
+									<div class="order-total-block">
+										<p class="total l-dis-ib">Total:</p>
+										<p class="total-price l-dis-ib js-total-price">
+											<span class="currency"></span>
+											<span class="value">0.00</span>
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="columns large-5 medium-5">
+								<div class="form-fields products-form-block">
+									<form action="sendmail.php" method="POST">
+										<input type="text" name="name_field" placeholder="Name" id="name_field" class="fillable-field required custom-reveal">
+
+										<span class="mail-field l-pos-r">
+											<input type="text" placeholder="E-mail" name="mail_field" id="mail_field" class="fillable-field required custom-reveal">
+										</span>
+
+										<input type="text" placeholder="Phone number" name="phone_field" id="phone_field" class="fillable-field required custom-reveal">
+
+
+										<input type="text" name="prCode_field" id="prCode_field" class="fillable-field l-hidden required custom-reveal products-code-list">
+
+
+										<input type="submit" value="Send" class="button submit-btn checkout custom-reveal preorder-btn">
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="custom-modal js-custom-modal" id="test">
+
+				<table width="100%">
+					<tr>
+						<td width="90%">
+						testing page<br>
+						testing page<br>
+						testing page<br>
+						</td>
+						<td>
+											 <a href="#test" class="js-close-modal">x</a>
+						</td>
+					</tr>
+				</table>
+
+			</div>
+		</div>
+		<div class="product-details-modal">
+		</div>
+	</div>
+
+	<script data-main="js/script.js" src="js/lib/require.js"></script>
+</body>
+<script type="text/javascript">
+	$(function(){
+
+   		// jQuery methods go here...
+
+   		// var text = "<ul class='slides'>";
+   		// alert('test');
+   		$.ajax({ //Process the form using $.ajax()
+            type      : 'GET', //Method type
+            url       : 'http://herwintika.id/nitip/getMemberLogin.php', //Your form processing file URL
+            // dataType  : 'json',
+            success   : function(datalog) {
+            	// alert('test');
+            	console.log(datalog);
+            	// alert(datalog);
+            
+            // text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";  
+            document.getElementById("MemberLogin").innerHTML = datalog;
+            }             
+        });
+
+   		$.ajax({ //Process the form using $.ajax()
+            type      : 'GET', //Method type
+            url       : 'http://herwintika.id/nitip/reqlist.php', //Your form processing file URL
+            // dataType  : 'json',
+            success   : function(data) {
+            	// alert('test');
+            	console.log(data);
+            
+            // text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";  
+            document.getElementById("ListRequest").innerHTML = data;
+            }             
+        });
+
+        $.ajax({ //Process the form using $.ajax()
+            type      : 'GET', //Method type
+            url       : 'http://herwintika.id/nitip/product_list.php', //Your form processing file URL
+            // dataType  : 'json',
+            success   : function(product) {
+            	// alert('test');
+            	console.log(product);
+            
+            // text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";  
+            document.getElementById("ProductList").innerHTML = product;
+            }             
+        });
+
+
+
+   		// for (var i = 0; i < Things.length; i++) {
+   		// 	text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' width='200' height='200' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";
+   		// }
+
+   		// text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' width='200' height='200' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";
+   		// text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/bakpia-8428327543.jpg' width='200' height='200' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";
+   		// text = text + "<li><dv class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/iphone-4200219884.jpg' width='200' height='200' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";
+   		// text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/kaktus-4634256460.jpg' width='200' height='200' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";
+   		// text = text + "</ul>";
+
+    	
+
+	});
+
+	function gettraveler() {
+		var asal = document.getElementById("origin").value;
+		var tujuan = document.getElementById("destination").value;
+
+		$.ajax({ //Process the form using $.ajax()
+            type      : 'GET', //Method type
+            url       : 'http://herwintika.id/nitip/getTraveler.php?asal='+asal+'&tujuan='+tujuan, //Your form processing file URL
+            // dataType  : 'json',
+            success   : function(traveler) {
+            	// alert('test');
+            	console.log(traveler);
+            
+            // text = text + "<li><div class='partners-item'><a href='#'><img id='imagitem' src='userfiles/item-pic/canon-9801982152.jpg' alt=''/><span class='caption'>Rp. 100.K</span></a></div></li>";  
+            document.getElementById("TravelerList").innerHTML = traveler;
+            }             
+        });
+		// alert(asal);
+		// alert(tujuan);
+		// body...
+	}
+</script>
+</html>

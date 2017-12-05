@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+
+  <!-- <div data-role="main" class="ui-content">
+    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-check ui-btn-icon-left">Show Popup Form</a>
+ -->
+    <div class="ui-content" style="min-width:250px;max-width: 500px;" align="center">
+      <form method="post" action="">
+        <div>
+          <h3>Search Trip Record</h3>
+          <label for="asal" class="ui-hidden-accessible">Asal:</label>
+          <input type="text" name="asal" id="asal" placeholder="Contoh : Gresik, Indonesia">
+          <label for="tujuan" class="ui-hidden-accessible">Tujuan:</label>
+          <input type="password" name="tujuan" id="tujuan" placeholder="Contoh : Surabaya, Indonesia">
+          <input type="button" onclick="coba()" data-inline="true" value="Search">
+        </div>
+      </form>
+    </div>
+  <!-- </div>  -->
+
+  <div data-role="footer" style="margin-bottom: 20Px;padding-bottom: 20px;">
+    <h1>Trip Data Record :</h1>
+    
+  </div>
+  <div class="table-responsive">
+    <table class="table" width="100%" border="1">
+      <thead>
+        <tr>
+          <td class="success">NO.</td>
+          <td class="info">Asal</td>
+          <td class="warning">Tujuan</td>
+          <td class="danger">Nama</td>
+          <td class="active">Tanggal Kembali</td>
+        </tr>
+      </thead>
+      <tbody id="isidetail">
+        <!-- </tbody>
+        <tr>
+          <td>1</td>
+          <td>Gresik, Indonesia</td>
+          <td>Gresik, Indonesia</td>
+          <td>Nama Depan Nama Belakang</td>
+          <td>2012-01-01</td>
+        </tr> -->
+      </tbody>
+    </table>
+    </div>
+</div> 
+<script type="text/javascript">
+  function coba(){
+    var asal = document.getElementById("asal").value;
+    var tujuan = document.getElementById("tujuan").value;           
+    $.ajax({
+            url: 'http://herwintika.id/nitip/api/API_Trip.php?asal='+asal+'&tujuan='+tujuan,
+            type: 'GET',
+            success: function (data) {
+                // console.log(data);
+                var userdata = JSON.parse(data);
+                console.log(userdata);
+                var jumlah = Object.keys(userdata).length;
+                // alert(jumlah);
+                for (var i = 0; i <jumlah; i++){
+                  console.log(i);
+                  console.log(userdata[i].username);
+                  addrow (i+1,userdata[i].back_to_city,userdata[i].back_to_country,userdata[i].travel_to_city,userdata[i].travel_to_country,userdata[i].firstname,userdata[i].lastname,userdata[i].expected_back_date);
+                }
+
+                // }
+
+            }
+    });
+  }
+  function addrow (nomor,kotaasal,negaraasal,kotatujuan,negaratujuan,depan,belakang,tanggal){
+      $('#isidetail').append('<tr><td>'+nomor+'</td><td>'+kotaasal+', '+negaraasal+'</td><td>'+kotatujuan+', '+negaratujuan+'</td><td>'+depan+' '+belakang+'</td><td>'+tanggal+'</td></tr>');
+    }
+</script>
+</body>
+</html>

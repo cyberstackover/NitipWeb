@@ -1,0 +1,192 @@
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/herwinti/public_html/nitip/api/API_Trip.php on line 34
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/herwinti/public_html/nitip/api/API_Trip.php on line 34
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/herwinti/public_html/nitip/api/API_Trip.php on line 34
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/herwinti/public_html/nitip/api/API_Trip.php on line 34
+[11-May-2017 23:28:55 Asia/Jakarta] PHP Notice:  Undefined variable: row in /home/herwinti/public_html/nitip/api/API_Trip.php on line 34
+[11-May-2017 23:29:21 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[11-May-2017 23:29:21 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[11-May-2017 23:33:02 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 13
+[11-May-2017 23:33:02 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 14
+[11-May-2017 23:42:57 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[11-May-2017 23:42:57 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 37
+[11-May-2017 23:44:24 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[11-May-2017 23:44:24 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 42
+[11-May-2017 23:45:30 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[11-May-2017 23:48:10 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[12-May-2017 08:05:19 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/API_Login.php on line 11
+[12-May-2017 08:05:19 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/API_Login.php on line 12
+[12-May-2017 08:05:26 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[12-May-2017 08:05:33 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[12-May-2017 08:05:45 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[12-May-2017 08:05:45 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[12-May-2017 08:46:10 Asia/Jakarta] PHP Notice:  Undefined variable: no_invoice_v in /home/herwinti/public_html/nitip/api/API_Login.php on line 23
+[12-May-2017 09:51:28 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Members.php on line 27
+[12-May-2017 09:51:40 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Members.php on line 27
+[12-May-2017 10:25:40 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Members.php on line 27
+[12-May-2017 10:55:53 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[12-May-2017 10:55:53 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[12-May-2017 16:51:16 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/API_Login.php on line 11
+[12-May-2017 16:51:16 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/API_Login.php on line 12
+[12-May-2017 16:51:24 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/API_Login.php on line 11
+[12-May-2017 16:51:24 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/API_Login.php on line 12
+[12-May-2017 16:51:26 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[12-May-2017 16:51:33 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[12-May-2017 16:51:52 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[12-May-2017 16:51:52 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 25
+[12-May-2017 16:52:00 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[12-May-2017 16:52:00 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[13-May-2017 05:02:51 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/API_Login.php on line 11
+[13-May-2017 05:02:51 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/API_Login.php on line 12
+[13-May-2017 08:19:58 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[13-May-2017 08:20:07 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[13-May-2017 08:20:07 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 25
+[13-May-2017 08:20:10 Asia/Jakarta] PHP Notice:  Undefined index: asal in /home/herwinti/public_html/nitip/api/API_Trip.php on line 11
+[13-May-2017 08:20:10 Asia/Jakarta] PHP Notice:  Undefined index: tujuan in /home/herwinti/public_html/nitip/api/API_Trip.php on line 12
+[13-May-2017 09:23:42 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:23:42 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:23:42 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:37 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:37 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:37 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:59 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:59 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:26:59 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:29:26 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:29:26 Asia/Jakarta] PHP Warning:  require(includes/config.php): failed to open stream: No such file or directory in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:29:26 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'includes/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/herwinti/public_html/nitip/api/mregister.php on line 2
+[13-May-2017 09:39:29 Asia/Jakarta] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/herwinti/public_html/nitip/api/mregister.php on line 8
+[13-May-2017 09:39:50 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/mregister.php on line 14
+[13-May-2017 09:39:50 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/mregister.php on line 15
+[13-May-2017 09:39:50 Asia/Jakarta] PHP Notice:  Undefined index: namad in /home/herwinti/public_html/nitip/api/mregister.php on line 16
+[13-May-2017 09:39:50 Asia/Jakarta] PHP Notice:  Undefined index: namab in /home/herwinti/public_html/nitip/api/mregister.php on line 17
+[13-May-2017 09:39:50 Asia/Jakarta] PHP Notice:  Undefined index: email in /home/herwinti/public_html/nitip/api/mregister.php on line 18
+[13-May-2017 11:01:32 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:07:05 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:08:14 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[13-May-2017 11:08:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 25
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 24
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 31
+[13-May-2017 11:08:21 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 32
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 24
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:11:55 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 24
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:11:58 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 24
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:12:18 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 24
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 38
+[13-May-2017 11:13:13 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 38
+[13-May-2017 11:14:19 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:19:18 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:21:18 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 21
+[13-May-2017 11:32:13 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[13-May-2017 12:14:12 Asia/Jakarta] PHP Warning:  mysql_connect(): Can't connect to local MySQL server through socket '/var/lib/mysql/mysql.sock' (2 &quot;No such file or directory&quot;) in /home/herwinti/public_html/nitip/api/API_Login.php on line 9
+[13-May-2017 14:11:53 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[13-May-2017 14:51:30 Asia/Jakarta] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/herwinti/public_html/nitip/api/request-item.php on line 1
+[13-May-2017 14:51:30 Asia/Jakarta] PHP Warning:  require(http://herwintika.id/nitip/includes/config.php): failed to open stream: no suitable wrapper could be found in /home/herwinti/public_html/nitip/api/request-item.php on line 1
+[13-May-2017 14:51:30 Asia/Jakarta] PHP Fatal error:  require(): Failed opening required 'http://herwintika.id/nitip/includes/config.php' (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/herwinti/public_html/nitip/api/request-item.php on line 1
+[13-May-2017 14:53:00 Asia/Jakarta] PHP Warning:  move_uploaded_file(http://herwintika.id/nitip/userfiles/item-pic/cumi-cumi--3528280048.jpg): failed to open stream: HTTP wrapper does not support writeable connections in /home/herwinti/public_html/nitip/api/request-item.php on line 30
+[13-May-2017 14:53:00 Asia/Jakarta] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpd7VOil' to 'http://herwintika.id/nitip/userfiles/item-pic/cumi-cumi--3528280048.jpg' in /home/herwinti/public_html/nitip/api/request-item.php on line 30
+[13-May-2017 14:53:00 Asia/Jakarta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/herwinti/public_html/nitip/api/request-item.php on line 36
+[13-May-2017 14:56:12 Asia/Jakarta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/herwinti/public_html/nitip/api/request-item.php on line 36
+[13-May-2017 14:57:44 Asia/Jakarta] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/herwinti/public_html/nitip/api/request-item.php on line 36
+[13-May-2017 15:03:25 Asia/Jakarta] PHP Notice:  Undefined variable: buy in /home/herwinti/public_html/nitip/api/request-item.php on line 20
+[13-May-2017 15:03:25 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/request-item.php on line 20
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: loc in /home/herwinti/public_html/nitip/api/mtrip.php on line 14
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: des in /home/herwinti/public_html/nitip/api/mtrip.php on line 15
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: tgl in /home/herwinti/public_html/nitip/api/mtrip.php on line 16
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/mtrip.php on line 27
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 16:46:05 Asia/Jakarta] PHP Notice:  Undefined offset: 1 in /home/herwinti/public_html/nitip/api/mtrip.php on line 35
+[13-May-2017 17:26:28 Asia/Jakarta] PHP Notice:  Undefined index: user in /home/herwinti/public_html/nitip/api/mregister.php on line 14
+[13-May-2017 17:26:28 Asia/Jakarta] PHP Notice:  Undefined index: pass in /home/herwinti/public_html/nitip/api/mregister.php on line 15
+[13-May-2017 17:26:28 Asia/Jakarta] PHP Notice:  Undefined index: namad in /home/herwinti/public_html/nitip/api/mregister.php on line 16
+[13-May-2017 17:26:28 Asia/Jakarta] PHP Notice:  Undefined index: namab in /home/herwinti/public_html/nitip/api/mregister.php on line 17
+[13-May-2017 17:26:28 Asia/Jakarta] PHP Notice:  Undefined index: email in /home/herwinti/public_html/nitip/api/mregister.php on line 18
+[13-May-2017 20:12:23 Asia/Jakarta] PHP Notice:  Use of undefined constant number - assumed 'number' in /home/herwinti/public_html/nitip/api/detailreq.php on line 23
+[13-May-2017 20:12:23 Asia/Jakarta] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home/herwinti/public_html/nitip/api/detailreq.php on line 23
+[13-May-2017 20:50:14 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[14-May-2017 05:49:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/detailreq.php on line 11
+[14-May-2017 05:49:14 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/detailreq.php on line 14
+[14-May-2017 12:38:17 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Members.php on line 11
+[15-May-2017 02:36:40 Asia/Jakarta] PHP Notice:  Undefined index: id in /home/herwinti/public_html/nitip/api/API_Request.php on line 11
+[15-May-2017 02:36:40 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/API_Request.php on line 25
+[15-May-2017 14:02:33 Asia/Jakarta] PHP Notice:  Undefined variable: tmp in /home/herwinti/public_html/nitip/api/member.php on line 43
+[15-May-2017 14:30:24 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '/' in /home/herwinti/public_html/nitip/api/mlistitem.php on line 21
+[15-May-2017 15:28:34 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 15:28:46 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 15:28:50 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 15:29:23 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 15:29:37 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:23:26 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:23:30 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:23:31 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:23:32 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:23:39 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 17
+[15-May-2017 16:24:17 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 19:55:26 Asia/Jakarta] PHP Notice:  Undefined variable:  in /home/herwinti/public_html/nitip/api/member.php on line 29
+[15-May-2017 19:55:37 Asia/Jakarta] PHP Notice:  Undefined variable:  in /home/herwinti/public_html/nitip/api/member.php on line 29
+[15-May-2017 19:56:07 Asia/Jakarta] PHP Notice:  Undefined variable:  in /home/herwinti/public_html/nitip/api/member.php on line 29
+[15-May-2017 20:07:22 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 20:09:01 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 20:30:53 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 20:32:18 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 20:36:19 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 21:33:21 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:33:24 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:33:34 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:34:26 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:34:31 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:36:21 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:36:44 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 27
+[15-May-2017 21:38:19 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 28
+[15-May-2017 21:40:13 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/mlistitem.php on line 28
+[15-May-2017 22:24:53 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:36:23 Asia/Jakarta] PHP Notice:  Undefined variable: _SESSION in /home/herwinti/public_html/nitip/api/mtrip.php on line 23
+[15-May-2017 22:44:26 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:44:39 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:44:44 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:44:49 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:44:55 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:45:02 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:46:54 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:47:05 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 22:47:13 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 23:05:44 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 23:12:22 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:12:22 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 23:12:35 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:12:35 Asia/Jakarta] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/herwinti/public_html/nitip/api/member.php on line 19
+[15-May-2017 23:12:57 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:13:15 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:13:50 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:14:01 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:14:14 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:26:06 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12
+[15-May-2017 23:39:12 Asia/Jakarta] PHP Notice:  Undefined index: data in /home/herwinti/public_html/nitip/api/mlistitem.php on line 12

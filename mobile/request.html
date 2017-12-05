@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+  <div data-role="header">
+    <h1>Welcome To My Homepage</h1>
+  </div>
+
+  <!-- <div data-role="main" class="ui-content">
+    <a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-check ui-btn-icon-left">Show Popup Form</a>
+ -->
+    <div class="ui-content" style="min-width:250px;max-width: 500px;" align="center">
+      <form method="post" action="">
+        <div>
+          <h3>Search Request Item</h3>
+          <label for="usrnm" class="ui-hidden-accessible">Id Request:</label>
+          <input type="text" name="idr" id="idr" placeholder="Id">
+          <!-- <label for="pswd" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passw" id="pswd" placeholder="Password">
+          <label for="log">Keep me logged in</label>
+          <input type="checkbox" name="login" id="log" value="1" data-mini="true"> -->
+          <input type="button" onclick="coba()" data-inline="true" value="Search">
+        </div>
+      </form>
+    </div>
+  <!-- </div>  -->
+
+  <div data-role="footer">
+    <h1>User Data</h1>
+    <div class="ui-content" style="min-width:250px;max-width: 500px;" align="center" id="memberdata">
+        <label for="item" class="ui-hidden-accessible">Item:</label>
+        <input type="text" name="item" id="item" placeholder="Item Name" readonly>
+        <label for="itemd" class="ui-hidden-accessible">Item Desc:</label>
+        <input type="text" name="itemd" id="itemd" placeholder="Item Desc" readonly>
+        <label for="tripid" class="ui-hidden-accessible">Trip Reference:</label>
+        <input type="text" name="tripid" id="tripid" placeholder="Trip Reference" readonly>
+        <label for="pemesan" class="ui-hidden-accessible">Pemesan:</label>
+        <input type="text" name="pemesan" id="pemesan" placeholder="Order by" readonly>
+        <label for="lpesan" class="ui-hidden-accessible">Lokasi Pesanan:</label>
+        <input type="text" name="lpesan" id="lpesan" placeholder="Location Request" readonly>
+        <label for="lambil" class="ui-hidden-accessible">Lokasi Pengambilan:</label>
+        <input type="text" name="lambil" id="lambil" placeholder="Location Deal" readonly>
+        <label for="harga" class="ui-hidden-accessible">Harga:</label>
+        <input type="text" name="harga" id="harga" placeholder="Price" readonly>
+        <img id="myImg" src="compman.gif" width="200" height="200">
+        
+    </div>
+  </div>
+</div> 
+<script type="text/javascript">
+  function coba(){
+    var idrequest = document.getElementById("idr").value; 
+    if (idrequest) {
+        $.ajax({
+            url: 'http://herwintika.id/nitip/api/API_Request.php?id='+idrequest,
+            type: 'GET',
+            success: function (data) {
+                var userdata = JSON.parse(data);
+                console.log(userdata);
+
+                console.log(userdata['Data_Request']);
+                console.log(userdata['Data_Request'][0]['Status']);
+                console.log(userdata['Data_Request'][0]['Detail_Request'][0]['item']);
+                
+                var LogStatus = userdata['Data_Request'][0]['Status'];
+
+                if (LogStatus == 'Success') {
+                    alert('Data Member Ditemukan');
+                    document.getElementById("item").value = userdata['Data_Request'][0]['Detail_Request'][0]['item'];
+                    document.getElementById("itemd").value = userdata['Data_Request'][0]['Detail_Request'][0]['itemDesc'];
+                    document.getElementById("tripid").value = userdata['Data_Request'][0]['Detail_Request'][0]['tripID'];
+                    document.getElementById("pemesan").value = userdata['Data_Request'][0]['Detail_Request'][0]['firstname']+' '+userdata['Data_Request'][0]['Detail_Request'][0]['lastname'];
+                    document.getElementById("lpesan").value = userdata['Data_Request'][0]['Detail_Request'][0]['cityRequest']+' '+userdata['Data_Request'][0]['Detail_Request'][0]['countryRequest'];
+                    document.getElementById("lambil").value = userdata['Data_Request'][0]['Detail_Request'][0]['cityDeal']+' '+userdata['Data_Request'][0]['Detail_Request'][0]['countryDeal'];
+                    document.getElementById("harga").value = userdata['Data_Request'][0]['Detail_Request'][0]['pay'];
+                    document.getElementById("myImg").src = 'http://herwintika.id/nitip/userfiles/item-pic/'+userdata['Data_Request'][0]['Detail_Request'][0]['itemPic'];
+                    // document.getElementById("imgmember").value = '<img src="http://herwintika.id/nitip/userfiles/profile-pic/'+userdata['Data_Request'][0]['Data_Request'][0]['profPic']+'" alt="" >';
+                } else {
+                    alert('Data Member Tidak Ditemukan');
+                    document.getElementById("idr").value = '';
+                    document.getElementById("idr").focus();
+                }
+
+            }
+         });
+    } else {
+        alert('Mohon untuk mengisi field yang telah disediakan');
+        document.getElementById("idr").focus();
+    }      
+    
+  }
+</script>
+</body>
+</html>
